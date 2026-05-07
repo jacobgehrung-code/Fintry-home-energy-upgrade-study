@@ -1,0 +1,2 @@
+requested task returned an error state.
+status   2 clm -mode text -file fintryclimate.clm -act epw2bin silent ./dbs/fintryclimatefile.epw
