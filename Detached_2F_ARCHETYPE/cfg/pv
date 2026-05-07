@@ -1,0 +1,19 @@
+# ESP-r special materials file used in 
+# configuration file SemiDetached_2F.cfg
+   1  # Number of special material nodes.
+# Node No:   1
+LR7-54-HTH-470M9 # label
+# Zone Surf Node Type Opq/Trn
+   3   4   4   1   1
+# Number of data items.
+  13
+# Data:
+# Open circuit voltage (V), Short circuit current. (I)
+# Short circuit current (I) Voltage at maximum pwr pt (V)
+# Current at maximum pwr pt (A), Reference insolation (W/m^2)
+# Reference temperature (K), Number series connected cells (-)
+# Number of parallel connected branches (-), Number of panels in surface. (-)
+# Empirical value used in calculation of Io, Load type (0-maximum power,1-fixed R,2-fixed V)
+# Load value - resistance or voltage (-), Shading treatment (0-def,1-prop.,2-total,3-diff.)
+   39.7500   15.0000   33.5900   13.9900 1000.0000  298.0000       36.000000    1.0000    0.0000   10.0000
+    0.0000    0.0000    0.0000
