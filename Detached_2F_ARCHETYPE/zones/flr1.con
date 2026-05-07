@@ -1,0 +1,74 @@
+*Constructions 2.1                              # thermophysical properties of flr1
+*date Tue Apr  7 08:37:26 2026                  # latest file modification
+# layers|air | emissivity |absorptivity| tmc | surface|surface     |construction 
+#       |gaps|inside other|inside other|index| index  |name        |name 
+     5     1   0.91   0.90   0.22   0.70   0    #   1  Wall-1       brk_aer_block_wall
+     5     1   0.91   0.90   0.22   0.70   0    #   2  Wall-2       brk_aer_block_wall
+     5     1   0.91   0.90   0.22   0.70   0    #   3  Wall-3       brk_aer_block_wall
+     5     1   0.91   0.90   0.22   0.70   0    #   4  Wall-4       brk_aer_block_wall
+     3     0   0.90   0.91   0.70   0.22   0    #   5  Attic-Floor  ceiling_attic_U0.11
+     5     1   0.91   0.90   0.22   0.85   0    #   6  Floor        cpt_cel2flr
+     3     1   0.83   0.83   0.05   0.05   1    #   7  Window-12    dbl_glz
+     3     1   0.83   0.83   0.05   0.05   1    #   8  Window-11    dbl_glz
+     3     1   0.83   0.83   0.05   0.05   1    #   9  Window-14    dbl_glz
+     3     1   0.83   0.83   0.05   0.05   1    #  10  Window-13    dbl_glz
+# air gap layer positions and restances
+  3  0.170                                      # for Wall-1
+  3  0.170                                      # and for Wall-2
+  3  0.170                                      # and for Wall-3
+  3  0.170                                      # and for Wall-4
+  4  0.170                                      # and for Floor
+  2  0.170                                      # and for Window-12
+  2  0.170                                      # and for Window-11
+  2  0.170                                      # and for Window-14
+  2  0.170                                      # and for Window-13
+# layer thermophysical properties
+# conduc-  | density |specific | thick- |dpnd|ref.| temp. |moisture|surface|layer
+# tivity   |         |heat     |ness(m) |type|temp|factor | factor |       |  
+     0.9600    2000.0     650.0  0.1000   0   0.00 0.00000 0.00000  #   1   1 Lt brown brick
+     0.0400     250.0     840.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool
+     0.0000       0.0       0.0  0.0500   0   0.00 0.00000 0.00000  #       3 AIR
+     0.2400     750.0    1000.0  0.1000   0   0.00 0.00000 0.00000  #       4 aerated conc block
+     0.1900     950.0     840.0  0.0120   0   0.00 0.00000 0.00000  #       5 white gypboard
+     0.9600    2000.0     650.0  0.1000   0   0.00 0.00000 0.00000  #   2   1 Lt brown brick
+     0.0400     250.0     840.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool
+     0.0000       0.0       0.0  0.0500   0   0.00 0.00000 0.00000  #       3 AIR
+     0.2400     750.0    1000.0  0.1000   0   0.00 0.00000 0.00000  #       4 aerated conc block
+     0.1900     950.0     840.0  0.0120   0   0.00 0.00000 0.00000  #       5 white gypboard
+     0.9600    2000.0     650.0  0.1000   0   0.00 0.00000 0.00000  #   3   1 Lt brown brick
+     0.0400     250.0     840.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool
+     0.0000       0.0       0.0  0.0500   0   0.00 0.00000 0.00000  #       3 AIR
+     0.2400     750.0    1000.0  0.1000   0   0.00 0.00000 0.00000  #       4 aerated conc block
+     0.1900     950.0     840.0  0.0120   0   0.00 0.00000 0.00000  #       5 white gypboard
+     0.9600    2000.0     650.0  0.1000   0   0.00 0.00000 0.00000  #   4   1 Lt brown brick
+     0.0400     250.0     840.0  0.1500   0   0.00 0.00000 0.00000  #       2 glasswool
+     0.0000       0.0       0.0  0.0500   0   0.00 0.00000 0.00000  #       3 AIR
+     0.2400     750.0    1000.0  0.1000   0   0.00 0.00000 0.00000  #       4 aerated conc block
+     0.1900     950.0     840.0  0.0120   0   0.00 0.00000 0.00000  #       5 white gypboard
+     0.1900     950.0     840.0  0.0240   0   0.00 0.00000 0.00000  #   5   1 white gypboard
+     0.0526      48.6    1154.8  0.1100   0   0.00 0.00000 0.00000  #       2 mineral_wool_9pc_joist
+     0.0400      12.0    1030.0  0.2500   0   0.00 0.00000 0.00000  #       3 Min wool quilt 1030spht
+     0.0600     186.0    1360.0  0.0060   0   0.00 0.00000 0.00000  #   6   1 dk grey Wilton
+     0.1000     400.0    1360.0  0.0060   0   0.00 0.00000 0.00000  #       2 cellular rub underlay
+     0.1500     700.0    1420.0  0.0180   0   0.00 0.00000 0.00000  #       3 plywood 700d
+     0.0000       0.0       0.0  0.1000   0   0.00 0.00000 0.00000  #       4 AIR
+     0.1900     950.0     840.0  0.0125   0   0.00 0.00000 0.00000  #       5 white gypboard
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #   7   1 plate glass
+     0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       2 AIR
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #       3 plate glass
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #   8   1 plate glass
+     0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       2 AIR
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #       3 plate glass
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #   9   1 plate glass
+     0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       2 AIR
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #       3 plate glass
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #  10   1 plate glass
+     0.0000       0.0       0.0  0.0120   0   0.00 0.00000 0.00000  #       2 AIR
+     0.7600    2710.0     837.0  0.0060   0   0.00 0.00000 0.00000  #       3 plate glass
+*tmc YES                                        # optical properties:
+   3  DCF7671_06nb                              # layers in tmc type 1
+  0.611  0.583  0.534  0.384  0.170  0.760      # transmission @ 5 angles & visible tr.
+  0.157  0.172  0.185  0.201  0.202             # for each layer absorption @ 5 angles
+  0.001  0.002  0.003  0.004  0.005
+  0.117  0.124  0.127  0.112  0.077
+   0                                            # no alternative optics
