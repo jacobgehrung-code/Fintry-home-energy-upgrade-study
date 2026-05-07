@@ -1,0 +1,65 @@
+m
+c
+a
+a - flr0
+f -surface attributes
+* -attribute many
+b -composition
+a -opaque cons
+b -WALL
+a -wall-1
+b -wall-2
+c -wall-3
+d -wall-4
+-
+y
+b
+-
+!
+
+y
+-
+y
+b - flr1
+f -surface attributes
+* -attribute many
+b -composition
+a -opaque cons
+b -WALL
+a -wall-1
+b -wall-2
+c -wall-3
+d -wall-4
+-
+y
+b
+-
+!
+
+y
+-
+y
+c - attic
+f -surface attributes
+* -attribute many
+b -composition
+a -opaque cons
+b -WALL
+a -gable wall
+c -gable wall
+-
+y
+b
+-
+!
+
+y
+-
+y
+-
+-
+!
+
+
+-
+-

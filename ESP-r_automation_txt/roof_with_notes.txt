@@ -1,0 +1,26 @@
+m
+c
+a
+c - attic
+f -surface attributes
+* -attribute many
+b -composition
+f -roof cons
+m -ROOF
+e -attic floor
+-
+y
+b
+-
+!
+
+y
+-
+y
+-
+-
+!
+
+
+-
+-

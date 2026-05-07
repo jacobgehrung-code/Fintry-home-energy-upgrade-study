@@ -1,0 +1,47 @@
+m
+c
+a
+a - flr0
+f -surface attributes
+* -attribute many
+b -composition
+d -glazing
+b -WINDOW
+h -window-1
+i -window-2
+j -window-3
+-
+y
+b
+-
+!
+
+y
+-
+y
+b - flr1
+f -surface attributes
+* -attribute many
+b -composition
+a -glazing
+b -WINDOW
+g -window-1
+h -window-2
+i -window-3
+j -window-4
+-
+y
+b
+-
+!
+
+y
+-
+y
+-
+-
+!
+
+
+-
+-
