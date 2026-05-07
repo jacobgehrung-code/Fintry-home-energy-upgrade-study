@@ -1,0 +1,6 @@
+﻿WALLS_UPGRADE_TYPE,WALLS_CAP_COST
+none,0
+external,#NAME?
+external_and_cavity,#NAME?
+cavity,#NAME?
+internal,#NAME?

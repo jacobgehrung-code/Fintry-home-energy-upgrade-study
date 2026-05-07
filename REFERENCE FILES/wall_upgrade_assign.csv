@@ -1,0 +1,6 @@
+﻿WALLS_UPGRADE_TYPE,PRICE,WALLS_CAP_COST
+none,0,0
+external,150,= WALL_AREA * PRICE
+external_and_cavity,200,= WALL_AREA * PRICE
+cavity,50,= WALL_AREA * PRICE
+internal,120,= WALL_AREA * PRICE

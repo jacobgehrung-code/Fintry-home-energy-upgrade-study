@@ -1,0 +1,6 @@
+﻿HOTWATER_DESCRIPTION,WATER_HEAT_CODE,WATER_FUEL_CODE
+"Electric immersion, off-peak ",electric_storage_heaters,electricity
+"Electric immersion, standard tariff ",electric_storage_heaters,electricity
+Electric instantaneous at point of use ,electric_storage_heaters,electricity
+Community scheme ,community_scheme,wood_chips
+No system present: electric immersion assumed ,electric_storage_heaters,electricity

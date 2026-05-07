@@ -1,0 +1,16 @@
+﻿ROOF_CONS,ASSIGNMENT
+insulated_roof_0.15,loft
+insulated_roof_0.35,loft
+insulated_roof_100mm,loft
+insulated_roof_12mm,loft
+insulated_roof_150mm,loft
+insulated_roof_200mm,loft
+insulated_roof_250mm,loft
+insulated_roof_270mm,loft
+insulated_roof_300mm,loft
+insulated_roof_350mm,loft
+insulated_roof_400mm,loft
+insulated_roof_50mm,loft
+insulated_roof_75mm,loft
+roof_insulated_rafters,rafters
+uninsulated_roof,loft
